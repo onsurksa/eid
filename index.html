@@ -136,6 +136,7 @@
                     '<h3 style="left:50%;bottom:7%" id=\'name\'>' + name + '</h3></div>';
                 var tempDiv = document.createElement('div');
                 tempDiv.setAttribute("id", "html-content-holder")
+		tempDiv.setAttribute("style", "margin-top:100vh")
                 document.body.appendChild(tempDiv);
                 setTimeout(function () {
                     tempDiv.innerHTML = image_htmlString;
